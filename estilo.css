@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+  padding: 0;
+}
+body{
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+        background-image: url(imagenes/formulario.jpg);
+        position: center;
+        max-height: 100%;
+        max-width: 100%;
+}
+
+#usuario{
+  max-width: 600px;
+  width: 84%;
+  margin: 10px auto;
+  position: relative;
+  background-color: white;
+  padding:12px;
+  box-shadow: 5px 5px 5px grey;
+  border: 1px solid #ccc;
+}
+
+#pass{
+  max-width: 600px;
+  width: 84%;
+  margin: 10px auto;
+  position: relative;
+  background-color: white;
+  padding:12px;
+  box-shadow: 5px 5px 5px grey;
+  border: 1px solid #ccc;
+}
+
+.uno{
+	max-width: 600px;
+  width: 40%;
+  margin: 180px auto;
+  position: center;
+  background-image: url(imagenes/liso.jpg);
+  padding:10px;
+  box-shadow: 2px 2px 2px grey;
+  text-align: center;
+  font-size: 20px; 
+}
+
+.submit {
+   width: 100%;
+   max-width: 80px;
+border: 1px solid grey;
+background: #56FFF5;
+ box-shadow: 2px 2px 2px grey;
+ padding: 10px;
+ margin: 10px;
+ border-radius: 3px;
+ transition: 0.2s;
+
+}
+
+   .submit:hover{
+    width: 100px;
+     background-color: #56CCFF;
+      border: 1px solid #000;
+
+    }
+
+
+.reset{
+  width: 100%;
+   max-width: 80px;
+border: 1px solid grey;
+background: #FFC756;
+ box-shadow: 2px 2px 2px grey;
+ padding: 10px;
+ margin: 10px;
+ border-radius:3px;
+ transition: 0.5s;
+
+}
+
+
+.reset:hover{
+    width: 100px;
+     background-color: #FF8456;
+      border: 1px solid #000;
+
+
+    }
+
+    .invitado {
+   width: 100%;
+   max-width: 80px;
+border: 1px solid grey;
+background: #DFFFA6;
+ box-shadow: 2px 2px 2px grey;
+ padding: 10px;
+ margin: 10px;
+ border-radius: 3px;
+ transition: 0.2s;
+
+}
+
+   .invitado:hover{
+    width: 100px;
+     background-color: #B1FFA6;
+      border: 1px solid #000;
+
+    }
+
